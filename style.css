@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0px;
-    
+    /* box-sizing: border-box; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -61,7 +61,7 @@
 
 .sec-about {
     height: 55rem;
-   
+    
     background-image: url("medicine\ img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,8 +80,10 @@
 }
 
 .section {
-    display: grid;
-    padding: 80px 0px 0px 0px;
+    /* display: grid;
+    padding: 80px 0px 0px 0px; */
+    position: relative;
+    top: 12rem;
 
 }
 
@@ -96,6 +98,7 @@
     margin-bottom: 16px;
     margin-top: 25px;
     font-family: "Open Sans", sans-serif;
+    font-weight: 700;
 }
 
 .line {
@@ -111,6 +114,7 @@
     font-size: 18px;
     color: #749cad;
     display: flex;
+    font-weight: 700;
 }
 
 .read {
@@ -613,6 +617,83 @@ a {
 /*6th section*/
 .appointment-section{
     width: 100%;
-    height: 50rem;
+    height: 30rem;
     background-color: white;
+    padding: 13rem 0px 0px;
+}
+.appnmt-box{
+    margin: 0px 20rem 0rem ;
+}
+.appnmt-text{
+    width: 850px;
+    height: 310px;
+}
+.a-text1{
+    color: #0192bc;
+    position: relative;
+    left: 18rem;
+    font-size: 20px;
+    width: 850px;
+    height: 20px;
+
+}
+.a-text2{
+    font-size: 35px;
+    
+    color: #0192bc;
+    position: relative;
+    left: 8rem;
+    width: 850px;
+    height: 70px;
+}
+.ap-divide{
+    background-color: #749cad4d;
+    width: 50px;
+    height: 7px;
+    position: relative;
+    left: 24rem;
+    top: 2rem;
+}
+.ap-para{
+    position: relative;
+    top: 4rem;
+  color: #0192bc;
+    width: 850px;
+    left: 2rem;
+    text-align: center;
+}
+.app-btn{
+    color: white;
+}
+.ap-button:hover{
+    cursor: pointer;
+    background-color: #44f3ca;
+}
+.ap-button{
+    width: 225px;
+    height: 45px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: #0192bc;
+    position: relative;
+    top: 7rem;
+    display: flex;
+    left: 19rem;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(22, 182, 166);
 }
