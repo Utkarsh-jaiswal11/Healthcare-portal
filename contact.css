@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.uppercontainer{
+    height: 506px;
+    width: 100%;
+    background: linear-gradient(45deg, #0193bcea,#44f3cae1),url(https://th.bing.com/th/id/OIP.rzvJIIoK4rs7kpN44Q5YegHaE8?rs=1&pid=ImgDetMain);
+                
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.CONTACT{
+    font-size: 45px;
+    position: absolute;
+    top: 213px;
+    left: 640px;
+    font-weight: 900;
+}
+
+.rightcontainer{
+    height: 542px;
+    width: 565px;
+    /* background-color: aqua; */
+    position: relative;
+    top: -426px;
+    left: 853px;
+    display: block;
+    color: #749CAD;
+}
+
+.username{
+    height: 41px;
+    position: relative;
+    top: 52px;
+    left: 3px;
+    width: 98%;
+    background-color: rgba(221, 221, 221, 0.979);
+    border-color: white;
+}
+
+.labelONE{
+    position: relative;
+    top: 41px;
+    left: 5px;
+    font-size: 25px;
+    
+}
+
+.usernameTWO{
+    height: 41px;
+    position: relative;
+    top: 82px;
+    left: 3px;
+    width: 98%;
+    background-color: rgba(221, 221, 221, 0.979);
+    border-color: white;
+}
+
+.labelTWO{
+    position: relative;
+    top: 73px;
+    left: 5px;
+    font-size: 25px;
+}
+
+.labelTHREE{
+    position: relative;
+    top: -898px;
+    left: 859px;
+    font-size: 25px;
+    color: #749CAD;
+}
+
+.feedback{
+    height: 220px;
+    position: relative;
+    top: -659px;
+    left: 573px;
+    width: 37.5%;
+    background-color: rgba(221, 221, 221, 0.979);
+    border-color: white;
+}
+
+.button{
+    position: relative;
+    top: 401px;
+    background-color: #0182a6;
+    border-radius: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: #3fd2fa;
+}
+
+.leftcontainer{
+    width: 557px;
+    position: relative;
+    top: 93px;
+    left: 20px;
+}
+
+.portionONE{
+    width: 622px;
+    height: 155px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.portionTWO{
+    width: 622px;
+    height: 155px;
+    /* background-color: purple; */
+    position: relative;
+}
+
+.portionTHREE{
+    width: 622px;
+    height: 155px;
+    /* background-color: green; */
+    position: relative;
+}
+
+i {
+    font-size: 15px;
+    position: relative;
+    top: 17px;
+    left: 8px;
+}
+
+.heading1{
+    position: relative;
+    top: -1px;
+    left: 26px;
+    color: #0192BC;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.paraONE{
+    position: relative;
+    top: -2px;
+    left: 11px;
+    color: #749CAD;
+    font-size: 24px;
+}
+
+.heading2{
+    position: relative;
+    top: -1px;
+    left: 26px;
+    color: #0192BC;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.paraTWO{
+    position: relative;
+    top: -2px;
+    left: 11px;
+    color: #749CAD;
+    font-size: 24px;
+}
+
+
+.weekday{
+    margin: 10px;
+    color: #749CAD;
+    font-size: 24px;
+    font-weight: lighter;
+    
+
+}
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.map {
+    height: 77%;
+    width: 102%;
+    left: 0;
+    
+    position: absolute;
+    top: 1208px;
+}
