@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.uppercontainer {
+  height: 475.8px;
+  width: 100vw;
+  background: linear-gradient(45deg, #0193bcea, rgba(68, 243, 202, 0.938)),
+    url("https://wallpapercave.com/wp/wp2386748.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.95;
+}
+
+.about {
+  position: absolute;
+  top: 32%;
+  left: 40%;
+  color: white;
+  font-size: 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.barone {
+  width: 70px;
+  height: 4.8px;
+  background-color: #749cad98;
+  position: absolute;
+
+  top: 401px;
+  left: 755px;
+}
+
+.midcontainer {
+  height: 769.24px;
+  width: 100vw;
+}
+
+.rightcontainer {
+  height: 545px;
+  width: 645px;
+  background: linear-gradient(45deg, #0193bcde, rgba(68, 243, 202, 0.886)),
+    url("https://th.bing.com/th/id/OIP.0Uo_xpXj-NtINUhY1n3bnwHaLP?pid=ImgDet&rs=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.95;
+  position: absolute;
+  top: 550px;
+  left: 850px;
+  border-radius: 20px;
+}
+
+.always {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: 61px;
+  left: 46px;
+  font-size: 38px;
+}
+
+.help {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: 72px;
+  left: 46px;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.bartwo {
+  width: 70px;
+  height: 4.8px;
+  background-color: #749cadac;
+  position: absolute;
+
+  top: 218px;
+  left: 60px;
+}
+
+.loremone {
+  color: white;
+  font-size: 23px;
+  position: relative;
+  top: 117px;
+  left: 57px;
+  width: 473px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.daniel {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: 43px;
+  left: 3px;
+}
+.image {
+  position: relative;
+  top: 53px;
+  left: -33px;
+  height: 80px;
+  width: 237px;
+}
+
+.leftcontainer{
+    position: relative;
+    top: -23px;
+    left: 88px
+}
+
+.words{
+    color: #0192BC;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    top: -604px;
+    left: 46px;
+    font-size: 38px;
+}
+
+.clinic{
+    color: #0192BC;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    top: -596px;
+    left: 43px;
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.loremtwo{
+    color: #749CAD;
+    font-size: 23px;
+    position: relative;
+    top: -550px;
+    left: 46px;
+    width: 473px;
+    font-family: "Open Sans", sans-serif;}
+
+    .barthree{
+        width: 70px;
+    height: 4.8px;
+    background-color: #749cadac;
+    position: relative;
+    top: -575px;
+    left: 48px;
+    }
+
+    .loremthree{
+        color: #749CAD;
+    font-size: 23px;
+    position: relative;
+    top: -525px;
+    left: 46px;
+    width: 473px;
+    font-family: "Open Sans", sans-serif;
+    }
+
+    .thirdcontainer{
+        height: 1002.5px;
+        width: 100%;
+        background: linear-gradient(45deg, #0193bcdf, #44f3cae8), url(doc.jpeg);
+        background-position: fixed;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -320px;
+    }
+
+    .thirdfirst{
+      position: absolute;
+      top: 906px;
+      left: 626px;
+      color: white;
+      font-size: 25px;
+      
+  }
+  
+  /* .individual{
+    color: white;
+    position: relative;
+    left: -41rem;
+    top: 29rem;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 688px;
+  } */
+  .thirdsecond{
+    position: relative;
+    top: 499px;
+    font-size: 42px;
+    left: -20px;
+    color: white;
+    font-weight: bolder;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .bar4{
+    position: relative;
+    top: 24px;
+    left: 104px;
+        width: 70px;
+    height: 4.8px;
+    background-color: #749cadac;
+  }
+  
+  .firstrow{
+    display: flex;
+    justify-content: space-around;
+    height: 244px;
+    width: 100%;
+    position: absolute;
+    top: 1634px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+      
+      
+  }
+  
+  .elementone{
+      
+      height: 225px;
+      width: 25%;
+      color: white;
+  }
+  
+  .elementtwo{
+      
+      height: 225px;
+      width: 25%;
+      color: white;
+  }
+  
+  .elementthree{
+      
+      height: 225px;
+      width: 25%;
+      color: white;
+  }
+  
+  .elementfour{
+      
+      height: 225px;
+      color: white;
+      width: 25%;
+  }
+  
+  
+  .fa-light fa-eye-slash{
+      width: 5px;
+      height: 5px;
+  }
+  
+  .secondrow{
+      
+    display: flex;
+    justify-content: space-around;
+    height: 244px;
+    width: 100%;
+    position: absolute;
+    top: 119rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+
+
+      
+      
+      
+  }
+  
+  .content{
+      margin-left: 28px;
+  }
+
+    .fourthcontainer{
+      height: 700px;
+      width: 100%;
+      position: absolute;
+      top: 823px;
+      left: 149px;
+      font-family: "Open Sans", sans-serif;
+    
+    }
+    
+    .left{
+         width: 600px;
+        height: 428px;
+        background-image: url(about-img-03.jpg);
+        position: absolute;
+        top: 1553px;
+        left: 49px;
+    }
+    
+    .right{
+        width: 499px ;
+        height: 428px;
+        position: absolute;
+        top: 96rem;
+        left:50rem ;
+        font-size: 25px;
+        color: #0192BC;
+        font-weight: 300;
+        font-size: 26px;
+        font-weight: bolder;
+    }
+
+    .heading{
+      font-size: 30px;
+      position: relative;
+      top: -32px;
+  }
+  
+  .headone{
+    position: relative;
+    top: 84px;
+    left: -61px;
+    font-size: 34px;
+  }
+  
+  .headtwo{
+    position: relative;
+    font-size: 36px;
+    top: 79px;
+    left: -66px;
+  
+  }
+  .lastbar{
+    width: 70px;
+    height: 4.8px;
+    background-color: #749cadac;
+    position: relative;
+    top: 107px;
+    left: -61px;
+  }
+
+  .individual{
+    color: white;
+    position: relative;
+    left: -39rem;
+    top: 29rem;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 688px;
+  }
+  
+
+  .choose{
+    color: white;
+    position: relative;
+    /* left: 171px; */
+    top: 112px;
+    font-size: 29px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 653px;
+  }
+
+  .barfour{
+    width: 70px;
+    height: 4.8px;
+    background-color: #749cadac;
+    position: relative;
+    
+    top: 127px;
+    left: 784px;
+  }
+
+ 
+i{
+ color: #f9f4f4;
+    position: relative;
+    top: 41px;
+    left: -13px;
+}
+
+.lastpara{
+  position: relative;
+  top: 135px;
+  left: -63px;
+  color: #749CAD;
+}
+
+.blockone{
+
+}
+
+.para{
+
+}
+
+.upper{
+  
+}
